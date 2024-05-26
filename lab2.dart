@@ -23,13 +23,13 @@ void readExpensesAndPrintTotal() {
 // Manipulating a Map and Printing Keys and Values
 void manipulateMapAndPrint() {
   Map<String, String> personInfo = {
-    'name': 'John Doe',
-    'address': '123 Main St',
-    'age': '30',
-    'country': 'USA',
+    'name': 'Abebe',
+    'address': 'Addis Ababa',
+    'age': '23',
+    'country': 'Ethiopia ',
   };
 
-  personInfo['country'] = 'Canada'; // Updating the country
+  personInfo['country'] = 'Kenya '; // Updating the country
 
   personInfo.forEach((key, value) {
     print('$key: $value');
@@ -39,10 +39,10 @@ void manipulateMapAndPrint() {
 // Filtering Keys with a Specific Length in a Map
 void filterMapKeysByLength() {
   Map<String, String> contacts = {
-    'John': '123456',
-    'Mike': '654321',
-    'Ana': '987654',
-    'Dave': '112233',
+    'abebe': '123456',
+    'kebe': '654321',
+    'belete': '987654',
+    'gebyehu': '112233',
   };
 
   var filteredKeys = contacts.keys.where((key) => key.length == 4);
